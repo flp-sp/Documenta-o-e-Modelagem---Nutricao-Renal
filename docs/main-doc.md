@@ -1,5 +1,7 @@
 # Documento de Especificação de Requisitos e Modelagem (DERM)
-Projeto: ThemeTree Versão: 0.2.0-alpha Data: 15 de Abril de 2026 Aluno: Francisco Felipe Sampaio Neto 
+Projeto: NOME Versão: 0.1.0-alpha Data: 5 de Junho de 2026  
+Alunos: Francisco Felipe Sampaio Neto, Raimundo Neto, Carlos Eduardo, Vitor Rufino
+
 ---
 ### 1. Histórico de Revisões
 
