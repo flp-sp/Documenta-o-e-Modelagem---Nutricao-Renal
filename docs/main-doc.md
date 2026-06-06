@@ -8,7 +8,9 @@ Alunos: Francisco Felipe Sampaio Neto, Raimundo José de Sousa Neto, Carlos Edua
 Versão | Data | Descrição | Autor
 -| - | - | -
 0.1.0-alpha | 05/06/2026 | Inicio da documentação | Francisco Felipe
-0.1.1-alpha | 06/06/2026 | Inicio da documentação | Francisco Felipe
+0.1.1-alpha | 06/06/2026 | Requisitos funcionais adicionados | Francisco Felipe
+0.1.2-alpha | 06/06/2026 | Atualização nos requisitos funcionais e adicinado regras de negócio | Francisco Felipe
+
 
 
 ### 2. Introdução
@@ -29,7 +31,8 @@ RF03 | Calcular nutrientes consumidos | O sistema deve calcular a quantidade de 
 RF04 | Registrar água consumida | O sistema deve permitir o cadastro de água consumida pelo usuário | Média
 RF05 | Realizar checklist | O sistema deve realizar um checklist todo dia... | Media
 RF06 | Sugerir receitas | O sistema deve sugerir receitas culinárias que encaixem na dieta do usuáio | Alta
-RF07 | Perguntar para chatbot | O sistema deve permitir que o usuário tire dúvidas ou peça ajuda ao chatbot | Media
+RF07 | Emitir alertas | O sistema deve emitir alertas para o usuário em condições críticas | Alta
+RF08 | Perguntar para chatbot | O sistema deve permitir que o usuário tire dúvidas ou peça ajuda ao chatbot | Media
 
 #### 3.2. Requisitos não Funcionais  
 ID | Nome | Descrição | Prioridade  
@@ -38,6 +41,12 @@ ID | Nome | Descrição | Prioridade
 #### 3.3. Regras de Negócio
 ID | Nome | Descrição | RF  
 -|-|-|-  
+RN01 | Dependência de Perfil para Dietas | O sistema não deve permitir o cálculo de nutrientes consumidos ou a sugestão de receitas sem que o perfil do paciente (RF01) esteja completamente preenchido. | RF03, RF06
+RN02 | Base de Dados Nutricional Oficial | O cálculo de nutrientes deve ser baseado em tabelas nutricionais oficiais e multiplicado estritamente pela porção informada. | RF02, RF03 
+RN03 | Alerta de Limite Diário | O sistema deve emitir um alerta visual imediato ao usuário quando o consumo de água ou de algum nutriente restrito atingir 90% do limite diário estabelecido no perfil. | RF02, RF04, RF07
+RN04 | Filtro de Receitas por Perfil | As receitas sugeridas pelo sistema devem conter apenas ingredientes e quantidades de nutrientes que estejam estritamente dentro dos limites permitidos pelo perfil do paciente. | RF01, RF06 
+RN05 | Reset do Checklist Diário | O checklist diário de consumo deve ser resetado automaticamente pelo sistema à meia-noite (00:00) do horário local configurado no perfil do usuário. | RF05 
+RN06 | Limitação de Escopo do Chatbot | O chatbot deve ser instruído a responder exclusivamente sobre dúvidas de alimentação e uso do aplicativo, emitindo um aviso padrão para que o usuário consulte seu médico ou nutricionista em caso de sintomas clínicos. | RF08 
 
 ### 4. Modelagem UML
 #### 4.1 Diagrama de Caso de Uso
