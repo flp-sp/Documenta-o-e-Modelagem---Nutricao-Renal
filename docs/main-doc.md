@@ -1,19 +1,23 @@
 # Documento de Especificação de Requisitos e Modelagem (DERM)
 Projeto: NOME Versão: 0.1.0-alpha Data: 5 de Junho de 2026  
-Alunos: Francisco Felipe Sampaio Neto, Raimundo Neto, Carlos Eduardo, Vitor Rufino
+Alunos: Francisco Felipe Sampaio Neto, Raimundo José de Sousa Neto, Carlos Eduardo, José Victor de Moura Rufino
 
 ---
 ### 1. Histórico de Revisões
 
 Versão | Data | Descrição | Autor
 -| - | - | -
+0.1.0-alpha | 05/06/2026 | Inicio da documentação | Francisco Felipe
 
 
 ### 2. Introdução
 #### 2.1. Objetivo  
-Este documento descreve os requisitos funcionais e não funcionais, bem como a modelagem UML para o sistema...
+Este documento descreve os requisitos funcionais e não funcionais, bem como a modelagem UML para o sistema para controle alimento e de água de pacientes com problemas renais de acordo com o perfil do usuário
 
 #### 2.2. Escopo  
+O sistema irá auxiliar a nutrição de pacientes com problemas renais, com controle de água, alimentos e nutrientes consumidos. Ele irá atuar mapeando o perfil do usuário, realizando checklists diários, sugerindo receitas que encaixem na dieta e contará com um chatbot para dúvidas e suporte.
+
+
 
 
 ### 3. Levantamento de requisitos
@@ -44,6 +48,12 @@ Fluxo Principal:
 Pós-condição: 
 
 #### 4.2 Diagrama de Classes
+
+#### 4.2 Diagrama de Atividade
+
+#### 4.3 Diagrama de Sequencia
+
+#### 4.5 Diagrama de Implantação
 
 
 ### 5. Dicionário de Dados
