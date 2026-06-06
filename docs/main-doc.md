@@ -1,5 +1,5 @@
 # Documento de Especificação de Requisitos e Modelagem (DERM)
-Projeto: NOME Versão: 0.1.0-alpha Data: 5 de Junho de 2026  
+Projeto: NOME Versão: 0.1.1-alpha Data: 5 de Junho de 2026  
 Alunos: Francisco Felipe Sampaio Neto, Raimundo José de Sousa Neto, Carlos Eduardo, José Victor de Moura Rufino
 
 ---
@@ -8,6 +8,7 @@ Alunos: Francisco Felipe Sampaio Neto, Raimundo José de Sousa Neto, Carlos Edua
 Versão | Data | Descrição | Autor
 -| - | - | -
 0.1.0-alpha | 05/06/2026 | Inicio da documentação | Francisco Felipe
+0.1.1-alpha | 06/06/2026 | Inicio da documentação | Francisco Felipe
 
 
 ### 2. Introdução
@@ -18,12 +19,17 @@ Este documento descreve os requisitos funcionais e não funcionais, bem como a m
 O sistema irá auxiliar a nutrição de pacientes com problemas renais, com controle de água, alimentos e nutrientes consumidos. Ele irá atuar mapeando o perfil do usuário, realizando checklists diários, sugerindo receitas que encaixem na dieta e contará com um chatbot para dúvidas e suporte.
 
 
-
-
 ### 3. Levantamento de requisitos
 #### 3.1. Requisitos funcionais  
 ID | Nome | Descrição | Prioridade  
 -|-|-|-   
+RF01 | Mapear perfil | O sistema vai pegar informações do paciente e armazenar o perfil dele | Alta
+RF02 | Registrar alimento consumido | O sistema deve permitir o cadastro de um alimento consumido pelo usuário | Alta
+RF03 | Calcular nutrientes consumidos | O sistema deve calcular a quantidade de nutrientes consumido a partir do alimento cadastrado | Alta
+RF04 | Registrar água consumida | O sistema deve permitir o cadastro de água consumida pelo usuário | Média
+RF05 | Realizar checklist | O sistema deve realizar um checklist todo dia... | Media
+RF06 | Sugerir receitas | O sistema deve sugerir receitas culinárias que encaixem na dieta do usuáio | Alta
+RF07 | Perguntar para chatbot | O sistema deve permitir que o usuário tire dúvidas ou peça ajuda ao chatbot | Media
 
 #### 3.2. Requisitos não Funcionais  
 ID | Nome | Descrição | Prioridade  
