@@ -14,7 +14,7 @@ Versão | Data | Descrição | Autor
 0.1.4-alpha | 07/06/2026 | Criação dos diagramas de seqência | Francisco Felipe
 0.1.5-alpha | 07/06/2026 | Criação do diagrama de implantação | Francisco Felipe
 0.1.6-alpha | 07/06/2026 | Criação do diagrama de classe de uso | Raimundo Neto
-
+0.1.7-alpha | 07/06/2026 | Criação dos protótipos | Francisco Felipe
 
 
 ### 2. Introdução
@@ -103,9 +103,17 @@ Classe | Atributo | Descrição
 Nesta seção, são apresentados os esboços da interface do usuário. O objetivo é validar o fluxo
 de navegação e a disposição dos elementos antes da fase de desenvolvimento.
 #### 6.1 Guia de Estilo (UI Kit)
-Cores Principais:  
-Tipografia:  
-Ferramenta utilizada:  
+Cores Principais: Tons de cinza `#d5d3ca`, `#f5f5f0`, `#1e1d19`  
+Tipografia: Open Sans  
+Ferramenta utilizada: Canva
 #### 6.2 Protótipos de Média Fidelidade
+#### Tela principal  
+![tela inicial](/src/prototipos/home.jpg)
+
+#### Chatbot
+![chatbot](/src/prototipos/chatbot.jpg)
+
+#### Cadastro de alimentos
+![cadastro de alimentos](/src/prototipos/cadastro.jpg)
 
 ### 7. Conclusão e Justificativa Técnica
