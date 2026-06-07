@@ -13,6 +13,7 @@ Versão | Data | Descrição | Autor
 0.1.3-alpha | 06/06/2026 | Atualização nos IDs dos requisitos funcionais e regras de negócio. Adicionado requisitos não funcionais | Raimundo Neto
 0.1.4-alpha | 07/06/2026 | Criação dos diagramas de seqência | Francisco Felipe
 0.1.5-alpha | 07/06/2026 | Criação do diagrama de implantação | Francisco Felipe
+0.1.6-alpha | 07/06/2026 | Criação do diagrama de classe de uso | Raimundo Neto
 
 
 
@@ -63,15 +64,18 @@ RN006 | Limitação de Escopo do Chatbot | O chatbot deve ser instruído a respo
 #### 4.1 Diagrama de Caso de Uso
 
 Detalhamento de Caso de Uso Principal   
-Atores:   
-Pré-condição:  
-Fluxo Principal:
-1. 
-2. 
-3. 
-4. 
 
-Pós-condição: 
+Atores: Paciente e Chatbot
+
+Pré-condição: Login do paciente
+
+Fluxo Principal: 
+1. Mapear perfil 
+2. Registrar alimento consumido
+3. Registrar água consumida
+4. Calcular nutrientes consumidos
+
+![diagrama de sequencia 1 - registro](/src/Diagrama%20de%20classe%20de%20uso.jpg)
 
 #### 4.2 Diagrama de Classes
 
