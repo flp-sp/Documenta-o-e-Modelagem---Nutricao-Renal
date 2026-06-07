@@ -12,4 +12,3 @@ Controlar o consumo de alimentos e água de pacientes com problemas renais crôn
 
 ## Documentação
 Confira a documentação completa [aqui](/docs/main-doc.md)
-EOF
