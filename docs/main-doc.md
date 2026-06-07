@@ -79,14 +79,15 @@ Fluxo Principal:
 
 #### 4.2 Diagrama de Classes
 
-#### 4.2 Diagrama de Atividade
+![diagrama de sequencia 1 - registro](/src/Diagrama%20de%20Classe%20Ideathon.jpg)
 
-#### 4.3 Diagrama de Sequencia
-#### 4.3.1 Registrar Alimento e Validar Limite
+#### 4.3 Diagrama de Atividade
 
+#### 4.4 Diagrama de Sequencia
+#### 4.4.1 Registrar Alimento e Validar Limite
 ![diagrama de sequencia 1 - registro](/src/sequencia-registro.jpg)
 
-#### 4.3.2 Chatbot
+#### 4.4.2 Chatbot
 ![diagrama de sequencia 2 - chatbot](/src/sequencia-chatbot.jpg)
 
 #### 4.5 Diagrama de Implantação
