@@ -83,6 +83,8 @@ Fluxo Principal:
 
 #### 4.3 Diagrama de Atividade
 
+![diagrama de sequencia 1 - registro](/src/Diagrama%20de%20Atividades.jpg)
+
 #### 4.4 Diagrama de Sequencia
 #### 4.4.1 Registrar Alimento e Validar Limite
 ![diagrama de sequencia 1 - registro](/src/sequencia-registro.jpg)
