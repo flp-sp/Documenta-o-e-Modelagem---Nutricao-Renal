@@ -1,5 +1,5 @@
 # Documento de Especificação de Requisitos e Modelagem (DERM)
-Projeto: NOME Versão: 0.1.1-alpha Data: 5 de Junho de 2026  
+Projeto: NOME Versão: 0.1.4-alpha Data: 5 de Junho de 2026  
 Alunos: Francisco Felipe Sampaio Neto, Raimundo José de Sousa Neto, Carlos Eduardo, José Victor de Moura Rufino
 
 ---
@@ -11,6 +11,7 @@ Versão | Data | Descrição | Autor
 0.1.1-alpha | 06/06/2026 | Requisitos funcionais adicionados | Francisco Felipe
 0.1.2-alpha | 06/06/2026 | Atualização nos requisitos funcionais e adicionado regras de negócio | Francisco Felipe
 0.1.3-alpha | 06/06/2026 | Atualização nos IDs dos requisitos funcionais e regras de negócio. Adicionado requisitos não funcionais | Raimundo Neto
+0.1.4-alpha | 07/06/2026 | Criação dos diagramas de seqência | Francisco Felipe
 
 
 
@@ -76,6 +77,12 @@ Pós-condição:
 #### 4.2 Diagrama de Atividade
 
 #### 4.3 Diagrama de Sequencia
+#### 4.3.1 Registrar Alimento e Validar Limite
+
+![diagrama de sequencia 1 - registro](/src/sequencia-registro.jpg)
+
+#### 4.3.2 Chatbot
+![diagrama de sequencia 2 - chatbot](/src/sequencia-chatbot.jpg)
 
 #### 4.5 Diagrama de Implantação
 
