@@ -1,5 +1,5 @@
-# Documento de Especificação de Requisitos e Modelagem (DERM)
-Projeto: NOME Versão: 0.1.5-alpha Data: 5 de Junho de 2026  
+# Documento de Especificação de Requisitos e Modelagem (DERM) do software NutriRim
+Projeto: NOME Versão: 0.2.0-alpha Data: 5 de Junho de 2026  
 Alunos: Francisco Felipe Sampaio Neto, Raimundo José de Sousa Neto, Carlos Eduardo, José Victor de Moura Rufino
 
 ---
@@ -15,6 +15,7 @@ Versão | Data | Descrição | Autor
 0.1.5-alpha | 07/06/2026 | Criação do diagrama de implantação | Francisco Felipe
 0.1.6-alpha | 07/06/2026 | Criação do diagrama de classe de uso | Raimundo Neto
 0.1.7-alpha | 07/06/2026 | Criação dos protótipos | Francisco Felipe
+0.2.0-alpha | 07/06/2026 | Finalização da documentação | Francisco Felipe
 
 
 ### 2. Introdução
@@ -117,5 +118,3 @@ Ferramenta utilizada: Canva
 
 #### Cadastro de alimentos
 ![cadastro de alimentos](/src/prototipos/cadastro.jpg)
-
-### 7. Conclusão e Justificativa Técnica
