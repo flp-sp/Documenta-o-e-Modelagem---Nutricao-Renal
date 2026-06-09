@@ -13,15 +13,16 @@ Versão | Data | Descrição | Autor
 0.1.3-alpha | 06/06/2026 | Atualização nos IDs dos requisitos funcionais e regras de negócio. Adicionado requisitos não funcionais | Raimundo Neto
 0.1.4-alpha | 07/06/2026 | Criação dos diagramas de seqência | Francisco Felipe
 0.1.5-alpha | 07/06/2026 | Criação do diagrama de implantação | Francisco Felipe
-0.1.6-alpha	| 07/06/2026 | Criação do diagrama de caso de uso	Raimundo Neto
-0.1.7-alpha	| 07/06/2026 | Criação do diagrama de classes	Raimundo Neto
-0.1.8-alpha	| 07/06/2026 | Criação do diagrama de atividades	Raimundo Neto
-0.1.9-alpha	| 07/06/2026 | Criação dos protótipos	Francisco Felipe
-0.2.0-alpha	| 08/06/2026 | Atualização dos requisitos funcionas, não funcionais e regras de negócio	Francisco Felipe
-0.2.1-alpha	| 08/06/2026 | Atualização no diagrama de sequência	Francisco Felipe
-0.2.2-alpha	| 08/06/2026 | Atualização no diagrama de implantação	Francisco Felipe
-0.2.3-alpha	| 08/06/2026 | Atualização no protótipos de tela	Francisco Felipe
-0.2.4-alpha | 08/06/2026 | Atualização no diagrama de caso de uso	Raimundo Neto
+0.1.6-alpha	| 07/06/2026 | Criação do diagrama de caso de uso | Raimundo Neto
+0.1.7-alpha	| 07/06/2026 | Criação do diagrama de classes | Raimundo Neto
+0.1.8-alpha	| 07/06/2026 | Criação do diagrama de atividades | Raimundo Neto
+0.1.9-alpha	| 07/06/2026 | Criação dos protótipos | Francisco Felipe
+0.2.0-alpha	| 08/06/2026 | Atualização dos requisitos funcionas, não funcionais e regras de negócio | Francisco Felipe
+0.2.1-alpha	| 08/06/2026 | Atualização no diagrama de sequência | Francisco Felipe
+0.2.2-alpha	| 08/06/2026 | Atualização no diagrama de implantação | Francisco Felipe
+0.2.3-alpha	| 08/06/2026 | Atualização no protótipos de tela | Francisco Felipe
+0.2.4-alpha | 08/06/2026 | Atualização no diagrama de caso de uso | Raimundo Neto
+0.2.4-alpha | 08/06/2026 | Adicionado dicionário de dados | Raimundo Neto
 
 
 ### 2. Introdução
@@ -108,7 +109,52 @@ Fluxo Principal:
 ### 5. Dicionário de Dados
 Classe | Atributo | Descrição  
 -|-|-  
-
+Paciente | id | Identificador único do paciente
+Paciente | nome | Nome completo do paciente
+Paciente | tipoTratamento | Tipo de tratamento renal realizado
+Paciente | limiteSodioDiario | Limite diário de sódio permitido
+Paciente | limitePotassioDiario | Limite diário de potássio permitido
+Paciente | limiteFosforoDiario | Limite diário de fósforo permitido
+Paciente | limiteLiquidoDiario | Limite diário de líquidos permitido
+Nutricionista | id | Identificador único do nutricionista
+Nutricionista | crn | Registro profissional do nutricionista
+PerfilNutricional | metaCalorias | Meta diária de calorias
+PerfilNutricional | metaProteinas | Meta diária de proteínas
+PerfilNutricional | metaSodio | Limite diário de sódio
+PerfilNutricional | metaLiquidos | Limite diário de líquidos
+Alimento | id | Identificador do alimento
+Alimento | nome | Nome do alimento
+Alimento | calorias100g | Valor calórico por 100g
+Alimento | sodio100g | Quantidade de sódio por 100g
+Receita | id | Identificador da receita
+Receita | nome | Nome da receita
+Receita | modoPreparo | Instruções de preparo
+ReceitaIA | promptUtilizado | Solicitação enviada para a IA
+ReceitaIA | justificativaNutricional | Justificativa da receita gerada
+Dieta | id | Identificador da dieta
+Dieta | dataInicio | Data de início da dieta
+Dieta | dataFim | Data de término da dieta
+RefeicaoPlanejada | tipo | Tipo da refeição planejada
+RefeicaoPlanejada | horario | Horário previsto da refeição
+RefeicaoConsumida | dataHora | Data e hora da refeição consumida
+RefeicaoConsumida | totalCalorias | Total de calorias consumidas
+RefeicaoConsumida | totalSodio | Total de sódio consumido
+ItemConsumido | quantidadeGramas | Quantidade consumida do alimento
+FotoRefeicao | urlImagem | Imagem enviada para análise
+FotoRefeicao | statusAnalise | Situação da análise da IA
+AnaliseIA | confianca | Grau de confiança da análise
+RegistroAgua | volumeMl | Volume de água ingerido
+CheckList | data | Data do monitoramento
+CheckList | sodioConsumido | Total de sódio consumido no dia
+CheckList | potassioConsumido | Total de potássio consumido no dia
+CheckList | fosforoConsumido | Total de fósforo consumido no dia
+CheckList | liquidosConsumidos | Total de líquidos consumidos no dia
+CheckList | aderenciaDieta | Grau de aderência à dieta
+AlertaNutricional | tipo | Tipo de alerta gerado
+AlertaNutricional | mensagem | Descrição do alerta
+Notificacao | mensagem | Conteúdo da notificação
+Notificacao | dataNotificacao | Data de envio da notificação
+Chatbot | responderPergunta() | Método responsável por responder dúvidas do paciente
 
 ### 6. Prototipação de Telas
 Nesta seção, são apresentados os esboços da interface do usuário. O objetivo é validar o fluxo
