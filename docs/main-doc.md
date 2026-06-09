@@ -88,7 +88,7 @@ Fluxo Principal:
 3. Registrar água consumida
 4. Calcular nutrientes consumidos
 
-![diagrama de caso de uso](/src/Diagrama%20de%20classe%20de%20uso.jpg)
+![diagrama de caso de uso](/src/Diagrama%20de%20Caso%20de%20Uso.jpg)
 
 #### 4.2 Diagrama de Classes
 
