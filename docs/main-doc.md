@@ -38,6 +38,8 @@ RF005 | Realizar checklist | O sistema deve realizar um checklist todo dia... | 
 RF006 | Sugerir receitas | O sistema deve sugerir receitas culinárias que encaixem na dieta do usuáio | Alta
 RF007 | Emitir alertas | O sistema deve emitir alertas para o usuário em condições críticas | Alta
 RF008 | Perguntar para chatbot | O sistema deve permitir que o usuário tire dúvidas ou peça ajuda ao chatbot | Media
+RF009 | Visualizar dashboard do paciente | O sistema deve disponibilizar um dashboard para o nutricionista acompanhar o progresso e os registros do paciente | Alta
+RF010 | Cadastrar dieta | O sistema deve permitir que o nutricionista cadastre e atualize a dieta do paciente | Alta
 
 #### 3.2. Requisitos não Funcionais  
 ID | Categoria | Nome | Descrição | Prioridade  
@@ -49,6 +51,8 @@ RNF004 | Diponibilidade | Disponibilidade dos alertas | O sistema de alertas dev
 RNF005 | Escalabilidade | Capacidade do banco de alimentos | O sistema deve suportar uma base de pelo menos 10.000 alimentos cadastrados sem degradação de performance na busca | Alta
 RNF006 | Acessibilidade | Legibilidade e visualização | A interface deve seguir diretrizes de acessibilidade (como contraste adequado e textos legíveis), considerando o uso por pacientes idosos ou com limitações visuais. | Média 
 RNF007 | Desempenho | Integração com o chatbot | O chatbot deve responder às perguntas do usuário em até 5 segundos em condições normais de rede | Baixa
+RNF008 | Segurança | Controle de acesso do nutricionista | O acesso ao dashboard e criação de dietas deve ser restrito a usuários com perfil de nutricionista devidamente autenticados | Alta
+RNF009 | Usabilidade | Visualização de métricas | O dashboard do nutricionista deve apresentar os dados do paciente de forma clara, priorizando gráficos e indicadores de adesão à dieta | Média
 
 
 #### 3.3. Regras de Negócio
@@ -60,6 +64,8 @@ RN003 | Alerta de Limite Diário | O sistema deve emitir um alerta visual imedia
 RN004 | Filtro de Receitas por Perfil | As receitas sugeridas pelo sistema devem conter apenas ingredientes e quantidades de nutrientes que estejam estritamente dentro dos limites permitidos pelo perfil do paciente. | RF001, RF006 
 RN005 | Reset do Checklist Diário | O checklist diário de consumo deve ser resetado automaticamente pelo sistema à meia-noite (00:00) do horário local configurado no perfil do usuário. | RF005 
 RN006 | Limitação de Escopo do Chatbot | O chatbot deve ser instruído a responder exclusivamente sobre dúvidas de alimentação e uso do aplicativo, emitindo um aviso padrão para que o usuário consulte seu médico ou nutricionista em caso de sintomas clínicos. | RF008 
+RN007 | Exclusividade de Prescrição | Apenas usuários com perfil de nutricionista podem cadastrar ou alterar os limites da dieta dos pacientes. | RF010
+RN008 | Atualização Sincronizada | Quando o nutricionista cadastrar uma dieta, os limites de nutrientes e alertas do paciente devem ser automaticamente ajustados no sistema. | RF010, RF001, RF007
 
 ### 4. Modelagem UML
 #### 4.1 Diagrama de Caso de Uso
@@ -76,25 +82,21 @@ Fluxo Principal:
 3. Registrar água consumida
 4. Calcular nutrientes consumidos
 
-![diagrama de sequencia 1 - registro](/src/Diagrama%20de%20classe%20de%20uso.jpg)
+![diagrama de caso de uso](/src/Diagrama%20de%20classe%20de%20uso.jpg)
 
 #### 4.2 Diagrama de Classes
 
-![diagrama de sequencia 1 - registro](/src/Diagrama%20de%20Classe%20Ideathon.jpg)
+![diagrama de classes](/src/Diagrama%20de%20Classe%20Ideathon.jpg)
 
 #### 4.3 Diagrama de Atividade
 
-![diagrama de sequencia 1 - registro](/src/Diagrama%20de%20Atividades.jpg)
+![diagrama de atividade](/src/Diagrama%20de%20Atividades.jpg)
 
 #### 4.4 Diagrama de Sequencia
-#### 4.4.1 Registrar Alimento e Validar Limite
-![diagrama de sequencia 1 - registro](/src/sequencia-registro.jpg)
-
-#### 4.4.2 Chatbot
-![diagrama de sequencia 2 - chatbot](/src/sequencia-chatbot.jpg)
+![diagrama de sequencia](/src/diagrama-sequencia.png)
 
 #### 4.5 Diagrama de Implantação
-![diagrama de implantação](/src/implantacao.jpg)
+![diagrama de implantação](/src/diagrama-implantacao.png)
 
 
 ### 5. Dicionário de Dados
@@ -111,10 +113,22 @@ Tipografia: Open Sans
 Ferramenta utilizada: Canva
 #### 6.2 Protótipos de Média Fidelidade
 #### Tela principal  
-![tela inicial](/src/prototipos/home.jpg)
+![tela inicial](/src/prototipos/dashboard.png)
+
+#### Dashboard nutricionista  
+![Dashboard nutricionista](/src/prototipos/dashboard-nutricionista.png)
+
+#### Cadastro de alimento  
+![Cadastro de alimento](/src/prototipos/foto-scan.png)
+
+#### Relatório do alimento  
+![Relatório do alimento](/src/prototipos/report-alimento.png)
+
+#### Receitas geradas  
+![Receitas geradas](/src/prototipos/receitas-geradas.png)
+
+#### Receita  
+![Receita](/src/prototipos/receita.png)
 
 #### Chatbot
-![chatbot](/src/prototipos/chatbot.jpg)
-
-#### Cadastro de alimentos
-![cadastro de alimentos](/src/prototipos/cadastro.jpg)
+![chatbot](/src/prototipos/chatbot-novo.png)
