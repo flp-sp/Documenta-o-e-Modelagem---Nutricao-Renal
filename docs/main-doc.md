@@ -108,9 +108,9 @@ Classe | Atributo | Descrição
 Nesta seção, são apresentados os esboços da interface do usuário. O objetivo é validar o fluxo
 de navegação e a disposição dos elementos antes da fase de desenvolvimento.
 #### 6.1 Guia de Estilo (UI Kit)
-Cores Principais: Tons de cinza `#d5d3ca`, `#f5f5f0`, `#1e1d19`  
+Cores Principais: `#2563eb`, `#10b981`, `#f59e0b`, `#757681`  
 Tipografia: Open Sans  
-Ferramenta utilizada: Canva
+Ferramenta utilizada: Stitch
 #### 6.2 Protótipos de Média Fidelidade
 #### Tela principal  
 ![tela inicial](/src/prototipos/dashboard.png)
