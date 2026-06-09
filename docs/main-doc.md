@@ -92,7 +92,7 @@ Fluxo Principal:
 
 #### 4.2 Diagrama de Classes
 
-![diagrama de classes](/src/Diagrama%20de%20Classe%20Ideathon.jpg)
+![diagrama de classes](/src/Diagrama%20de%20Classes.jpeg)
 
 #### 4.3 Diagrama de Atividade
 
