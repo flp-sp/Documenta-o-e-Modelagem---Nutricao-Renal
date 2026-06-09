@@ -13,15 +13,10 @@ Versão | Data | Descrição | Autor
 0.1.3-alpha | 06/06/2026 | Atualização nos IDs dos requisitos funcionais e regras de negócio. Adicionado requisitos não funcionais | Raimundo Neto
 0.1.4-alpha | 07/06/2026 | Criação dos diagramas de seqência | Francisco Felipe
 0.1.5-alpha | 07/06/2026 | Criação do diagrama de implantação | Francisco Felipe
-0.1.6-alpha	| 07/06/2026 | Criação do diagrama de caso de uso	Raimundo Neto
-0.1.7-alpha	| 07/06/2026 | Criação do diagrama de classes	Raimundo Neto
-0.1.8-alpha	| 07/06/2026 | Criação do diagrama de atividades	Raimundo Neto
-0.1.9-alpha	| 07/06/2026 | Criação dos protótipos	Francisco Felipe
-0.2.0-alpha	| 08/06/2026 | Atualização dos requisitos funcionas, não funcionais e regras de negócio	Francisco Felipe
-0.2.1-alpha	| 08/06/2026 | Atualização no diagrama de sequência	Francisco Felipe
-0.2.2-alpha	| 08/06/2026 | Atualização no diagrama de implantação	Francisco Felipe
-0.2.3-alpha	| 08/06/2026 | Atualização no protótipos de tela	Francisco Felipe
-0.2.4-alpha | 08/06/2026 | Atualização no diagrama de caso de uso	Raimundo Neto
+0.1.6-alpha | 07/06/2026 | Criação do diagrama de classe de uso | Raimundo Neto
+0.1.7-alpha | 07/06/2026 | Criação dos protótipos | Francisco Felipe
+0.2.0-alpha | 07/06/2026 | Finalização da documentação | Francisco Felipe
+
 
 ### 2. Introdução
 #### 2.1. Objetivo  
@@ -87,7 +82,7 @@ Fluxo Principal:
 3. Registrar água consumida
 4. Calcular nutrientes consumidos
 
-![diagrama de caso de uso 1 - registro](/src/Diagrama%20de%20Caso%20de%20Uso.jpg)
+![diagrama de caso de uso](/src/Diagrama%20de%20classe%20de%20uso.jpg)
 
 #### 4.2 Diagrama de Classes
 
