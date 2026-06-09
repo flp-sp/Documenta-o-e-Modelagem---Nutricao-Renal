@@ -31,7 +31,8 @@ Versão | Data | Descrição | Autor
 0.2.2-alpha	| 08/06/2026 | Atualização no diagrama de implantação | Francisco Felipe
 0.2.3-alpha	| 08/06/2026 | Atualização no protótipos de tela | Francisco Felipe
 0.2.4-alpha | 08/06/2026 | Atualização no diagrama de caso de uso | Raimundo Neto
-0.2.4-alpha | 08/06/2026 | Adicionado dicionário de dados | Raimundo Neto
+0.2.5-alpha | 08/06/2026 | Adicionado dicionário de dados | Raimundo Neto
+0.2.6-alpha | 08/06/2026 | Atualização no diagrama de atividades | Raimundo Neto
 
 
 ### 2. Introdução
